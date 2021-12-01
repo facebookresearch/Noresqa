@@ -1,0 +1,18 @@
+name: noresqa
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit
+  - pip=21.2.4
+  - python=3.8.2
+  - pytorch=1.9.1
+  - torchvision=0.10.1
+  - libsndfile=1.0.29
+  - pip:
+    - librosa==0.8.1
+    - numpy==1.21.2
+    - pyyaml==5.3.1
+    - scikit-learn==0.24.2
+    - scipy==1.7.1
