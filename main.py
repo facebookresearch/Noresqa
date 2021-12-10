@@ -90,13 +90,13 @@ def check_size(audio_ref,audio_test):
     
     if len(audio_ref) > len(audio_test):
         print('Durations dont match. Adjusting duration of reference.')
-        while len(audio_ref)>len(audio_test):
-            audio_test = np.append(audio_test, audio_test)
-        audio_test = audio_test[:len(audio_ref)]
+        audio_ref = audio_ref[:len(audio_test)]
         
     elif len(audio_ref) < len(audio_test):
         print('Durations dont match. Adjusting duration of reference.')
-        audio_test = audio_test[:len(audio_ref)]  
+        while len(audio_test) > len(audio_ref):
+            audio_ref = np.append(audio_ref, audio_ref)
+        audio_ref = audio_ref[:len(audio_test)] 
     
     return audio_ref, audio_test
 
