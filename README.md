@@ -1,7 +1,7 @@
 # NORESQA: Speech Quality Assessment using Non-Matching References
 
 
-This is a Pytorch implementation for using NORESQA. It contains minimal code to predict speech quality using NORESQA. Please see our **Neurips 2021** paper referenced below for details.
+This is a Pytorch implementation for using NORESQA. It contains minimal code to predict speech quality using NORESQA. Please check out our **Neurips 2021** paper referenced below for details.
 
 ### Minimal basic usages as Speech Quality Assessment Metric.
 
