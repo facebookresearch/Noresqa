@@ -1,7 +1,7 @@
 # NORESQA: Speech Quality Assessment using Non-Matching References
 
 
-This is a Pytorch implementation for using NORESQA. It contains minimal code to predict speech quality using NORESQA. Please see our **Neurips 2021** paper referenced below for details.
+This is a Pytorch implementation for using NORESQA. It contains minimal code to predict speech quality using NORESQA. Please check out our **Neurips 2021** paper referenced below for details.
 
 ### Minimal basic usages as Speech Quality Assessment Metric.
 
@@ -18,7 +18,7 @@ conda activate noresqa
 ```
 
 Additional notes:
-- Warning: Make sure your libraries (Cuda, Cudnn,...) are compatible with the pytorch version you're using or the code will not run.
+- Warning: Make sure your libraries (Cuda, Cudnn,...) are compatible with the pytorch version you're using.
 - Tested on Nvidia GeForce RTX 2080 GPU with Cuda (>=9.2) and CuDNN (>=7.3.0). CPU mode should also work.
 - The current pretrained models support **sampling rate = 16KHz**. The provided code automatically resamples the recording to 16KHz.
 
