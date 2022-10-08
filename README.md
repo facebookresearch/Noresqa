@@ -27,7 +27,7 @@ conda activate noresqa
 Set CONFIG_PATH in main.py. This is path of *Wav2Vec 2.0 Base* model used for instantiating the NORESQA-MOS model. For default **download *Wav2Vec 2.0 Base* model from [this link](https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/README.md) and put inside models/ directory.**
 
 Additional notes:
-- Warning: Make sure your libraries (Cuda, Cudnn,...) are compatible with the pytorch version you're using or the code will not run.
+- Warning: Make sure your libraries (Cuda, Cudnn,...) are compatible with the pytorch version you're using.
 
 - *NORESQA-MOS* predictions are based on assumptions that the provided NMR(s) is(are) clean. Use only clean NMRs to predict MOS.
 
