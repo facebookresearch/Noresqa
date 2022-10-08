@@ -18,7 +18,7 @@ conda activate noresqa
 ```
 
 Additional notes:
-- Warning: Make sure your libraries (Cuda, Cudnn,...) are compatible with the pytorch version you're using or the code will not run.
+- Warning: Make sure your libraries (Cuda, Cudnn,...) are compatible with the pytorch version you're using.
 - Tested on Nvidia GeForce RTX 2080 GPU with Cuda (>=9.2) and CuDNN (>=7.3.0). CPU mode should also work.
 - The current pretrained models support **sampling rate = 16KHz**. The provided code automatically resamples the recording to 16KHz.
 
