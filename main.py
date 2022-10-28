@@ -98,7 +98,7 @@ def model_prediction_noresqa_mos(test_feat, nmr_feat):
 # reading audio clips
 def audio_loading(path,sampling_rate=16000):
 
-    audio, fs = librosa.load(path)
+    audio, fs = librosa.load(path, sr=None)
     if len(audio.shape) > 1:
         audio = librosa.to_mono(audio)
 
