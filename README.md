@@ -2,7 +2,7 @@
 
 
 This is a Pytorch implementation for using NORESQA. The NORESQA framework uses non-matching
-references (NMT) along with the given test speech signal to estimate speech quality. Under this framework
+references (NMR) along with the given test speech signal to estimate speech quality. Under this framework
 we have two metrics:
 
 - *NORESQA-score*: A metric based on SI-SDR for speech. The model predicts absolute relative SI-SDR [1] between test and NMR and probability of test cleaner than the NMR
